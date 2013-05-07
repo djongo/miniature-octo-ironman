@@ -1,3 +1,4 @@
+# encoding: utf-8
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
@@ -33,8 +34,9 @@ gem 'jquery-rails', '2.0.2'
 group :test do
   gem 'capybara', '1.1.2'
 #  gem 'rb-inotify', '0.8.8'
+#  gem 'libnotify', '0.5.9'
   gem 'rb-fsevent', '0.9.1', :require => false
-  gem 'libnotify', '0.5.9'
+  gem 'growl', '1.0.3'
   gem 'factory_girl_rails', '4.1.0'
   gem 'cucumber-rails', '1.2.1', :require => false
   gem 'database_cleaner', '0.7.0'
